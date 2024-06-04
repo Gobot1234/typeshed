@@ -377,6 +377,7 @@ class Commit(Object):
     raw_message: bytes
     tree: Tree
     tree_id: Oid
+    hex: str
 
 class Diff:
     deltas: Iterator[DiffDelta]
